@@ -34,7 +34,7 @@ function setup() {
 	var packageOptions={
 		restitution:1,
 	}
-	packageBody = Bodies.circle(width/2 , 200 , 110 ,packageOptions);
+	packageBody = Bodies.circle(width/2 , 200 , 107.5 ,packageOptions);
 	World.add(world, packageBody);
 	
 
